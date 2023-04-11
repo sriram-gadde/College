@@ -1,0 +1,63 @@
+/* Styles for the Colleges component */
+.college-card {
+    background-color: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .college-card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .college-img {
+    height: 16rem;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .college-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 1rem 0;
+  }
+  
+  .college-location {
+    color: #718096;
+    margin-bottom: 1rem;
+  }
+  
+  .college-type {
+    background-color: #e2e8f0;
+    border-radius: 0.25rem;
+    color: #4a5568;
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  /* Styles for the heading */
+  h1 {
+    color: #1a202c;
+  }
+  
+  /* Styles for the background */
+  .bg-gray-100 {
+    background-color: #edf2f7;
+  }
+  
+  .dark\:bg-gray-800 {
+    background-color: #2d3748;
+  }
+  
+  /* Styles for the text */
+  .text-gray-800 {
+    color: #2d3748;
+  }
+  
+  .dark\:text-white {
+    color: #fff;
+  }
+  
